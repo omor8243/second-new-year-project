@@ -80,13 +80,46 @@
 .about-list li {
   list-style: none;
   line-height: 26px;
-  color:#444343;
+  color: #444343;
 }
-.about-list li i{
+
+.about-list li i {
   padding: 5px;
   color: #16d887;
 }
 
 .about-image img {
   margin-right: 134px;
+}
+
+/*my plan part css*/
+.my-plan-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin: 200px 0 50px 0;
+}
+.my-plan-con{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.my-plan {
+  /* display: flex; */
+  /* text-align: center; */
+}
+
+.my-plan-con-title {
+  color: #151414;
+  /* text-align: center; */
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.my-plan-sub-title {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
 }
