@@ -51,3 +51,42 @@
   background: #F15B22;
   padding: 15px;
 }
+
+/*about part css*/
+.about-part {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 140px 0 0 100px;
+}
+
+.about-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  width: 280px;
+}
+
+.about-disc {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 400px;
+  margin: 24px 0 17px 0;
+}
+
+.about-list li {
+  list-style: none;
+  line-height: 26px;
+  color:#444343;
+}
+.about-list li i{
+  padding: 5px;
+  color: #16d887;
+}
+
+.about-image img {
+  margin-right: 134px;
+}
